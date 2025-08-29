@@ -1,0 +1,14 @@
+scrape_task:
+  description: "Scrape product data from the listed gambling websites."
+  expected_output: "Return product data in JSON format."
+  agent: "scraper_agent"
+
+identify_task:
+  description: "Match and unify products scraped from different sources."
+  expected_output: "Provide unified product JSON with confidence scores."
+  agent: "product_identifier_agent"
+
+rearrange_task:
+  description: "Generate a CSV file from unified product data."
+  expected_output: "CSV formatted product list with prices."
+  agent: "data_rearranger_agent"

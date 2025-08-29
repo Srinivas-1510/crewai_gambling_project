@@ -1,0 +1,14 @@
+scraper_agent:
+  role: "Data Collector"
+  goal: "Scrape products and prices from gambling websites polymarket.com, prediction-market.com, and kalshi.com"
+  backstory: "Expert in web scraping and data extraction."
+
+product_identifier_agent:
+  role: "Product Identifier"
+  goal: "Identify and unify the same products across different websites"
+  backstory: "Expert in product matching and data processing."
+
+data_rearranger_agent:
+  role: "Data Rearranger"
+  goal: "Create a unified CSV product list with prices and confidence scores"
+  backstory: "Expert in data formatting and CSV generation."
